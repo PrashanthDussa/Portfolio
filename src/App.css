@@ -14,7 +14,11 @@ body {
   box-shadow: 0px 2.983px 7.456px rgba(0, 0, 0, 0.10) ;
   justify-content: flex-end;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
   z-index: 1;
 }
 
@@ -26,7 +30,10 @@ body {
   box-shadow: 0px 2.5px 10px rgba(46, 46, 46, 0.938) ;
   justify-content: flex-end;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1;
 }
 
@@ -241,7 +248,7 @@ body {
 .main-light-intro{
   display: flex;
   flex-direction: column;
-  padding: 96px 80px;
+  padding: 165px 80px 96px 80px;
   justify-content: space-between;
   align-items: flex-start;
   align-self: stretch;
@@ -289,7 +296,7 @@ body {
 .light-h1{
   font-family: 'Black Ops One',sans-serif; 
   color: var(--Gray-900, #111827);
-  font-size: 55px;
+  font-size: 50px;
   font-style: normal;
   line-height: 72px;
   margin-bottom: 20px;
@@ -299,7 +306,7 @@ body {
 .dark-h1{
   font-family: 'Black Ops One',sans-serif; 
   color: var(--Gray-Dark-900, #F9FAFB);
-  font-size: 55px;
+  font-size: 50px;
   font-style: normal;
   line-height: 72px;
   margin-bottom: 20px;
@@ -417,6 +424,7 @@ body {
 
 .intro-image-container{
   display: flex;
+  margin-left: 60px;
   min-width: 384px;
   flex-direction: column;
   justify-content: center;
@@ -872,7 +880,7 @@ body {
 
 .light-projects-container{
   display: flex;
-  padding: 96px 80px;
+  padding: 96px 80px 107px 80px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -882,7 +890,7 @@ body {
 
 .dark-projects-container{
   display: flex;
-  padding: 96px 80px;
+  padding: 96px 80px 107px 80px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
