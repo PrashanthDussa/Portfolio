@@ -14,7 +14,9 @@ export default function Navbar(props){
 
     return(
         <nav className={props.dark? 'dark-nav' : 'light-nav'} id='navbar'>
-            <img src={props.dark ? '/Images/logo-name-dark.svg' : '/Images/logo-name-light.svg'} className='logo-name-light' alt='name-logo'></img>
+            <div className='site-logo-container'>
+            <ScrollLink to="intro" smooth={true} duration={1200}><img src={props.dark ? '/Images/logo-name-dark.svg' : '/Images/logo-name-light.svg'} className='logo-name-light' alt='name-logo'></img></ScrollLink>
+            </div>
             <ScrollLink to="about" smooth={true} duration={1200}><h2 className={props.dark ? 'nav-dark-right' : 'nav-light-right'}>About</h2></ScrollLink>
             <ScrollLink to="work" smooth={true} duration={1200}><h2 className={props.dark ? 'nav-dark-right' : 'nav-light-right'}>Work</h2></ScrollLink>
             <ScrollLink to="projects" smooth={true} duration={1200}><h2 className={props.dark ? 'nav-dark-right' : 'nav-light-right'}>Projects</h2></ScrollLink>

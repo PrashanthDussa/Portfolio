@@ -237,10 +237,14 @@ body {
   transition: left 0.5s ease;
 }
 
+.site-logo-container{
+  margin-right: auto
+}
+
 .logo-name-light{
   width: 100px;
   height: 60px;
-  margin-right: auto
+  cursor: pointer;
 }
 
 /* Intro CSS */
@@ -261,7 +265,7 @@ body {
 .main-dark-intro{
   display: flex;
   flex-direction: column;
-  padding: 96px 80px;
+  padding: 165px 80px 96px 80px;
   justify-content: space-between;
   align-items: flex-start;
   align-self: stretch;
