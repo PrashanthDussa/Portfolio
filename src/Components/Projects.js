@@ -85,7 +85,7 @@ export default function Projects(props){
                             </div>
                         </div>
                     </div>
-                    <div className={props.dark ? 'dark-project-image-container' : 'light-project-image-container'}>
+                    <div className={props.dark ? 'dark-project-image-container-fmd' : 'light-project-image-container-fmd'}>
                         <div className="project-image" style={faceMaskRecognitionStyle}></div>
                     </div>             
                 </div>
