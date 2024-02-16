@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.cc5f96fb.css",
-    "main.js": "/Portfolio/static/js/main.e550a8c8.js",
-    "static/js/592.6d7de513.chunk.js": "/Portfolio/static/js/592.6d7de513.chunk.js",
-    "static/media/Prashanth_Dussa_2024.pdf": "/Portfolio/static/media/Prashanth_Dussa_2024.f284f82ac7614853308f.pdf",
-    "index.html": "/Portfolio/index.html",
-    "main.cc5f96fb.css.map": "/Portfolio/static/css/main.cc5f96fb.css.map",
-    "main.e550a8c8.js.map": "/Portfolio/static/js/main.e550a8c8.js.map",
-    "592.6d7de513.chunk.js.map": "/Portfolio/static/js/592.6d7de513.chunk.js.map"
+    "main.css": "/static/css/main.cc5f96fb.css",
+    "main.js": "/static/js/main.64675cb7.js",
+    "static/js/592.6d7de513.chunk.js": "/static/js/592.6d7de513.chunk.js",
+    "static/media/Prashanth_Dussa_2024.pdf": "/static/media/Prashanth_Dussa_2024.f284f82ac7614853308f.pdf",
+    "index.html": "/index.html",
+    "main.cc5f96fb.css.map": "/static/css/main.cc5f96fb.css.map",
+    "main.64675cb7.js.map": "/static/js/main.64675cb7.js.map",
+    "592.6d7de513.chunk.js.map": "/static/js/592.6d7de513.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc5f96fb.css",
-    "static/js/main.e550a8c8.js"
+    "static/js/main.64675cb7.js"
   ]
 }
