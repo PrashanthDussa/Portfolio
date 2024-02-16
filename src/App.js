@@ -8,7 +8,6 @@ import Experience from './Components/Experience'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
-import ScrollToTopButton from './Components/ScrollToTop'
 
 function App() {
   const [dark,setDark] = React.useState(false)
@@ -32,7 +31,6 @@ function App() {
       {introRendered && <Projects dark={dark}/>}
       {introRendered && <Contact dark={dark}/>}
       {introRendered && <Footer dark={dark}/>}
-      {introRendered && <ScrollToTopButton/>}
     </div>
   )
 }
