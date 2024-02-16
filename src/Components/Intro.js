@@ -9,17 +9,18 @@ export default function Intro(props){
 
     const handleTypingComplete = () => {
         setTypingCompleted(true);
+        props.introComplete()
     };
 
-    React.useEffect(()=>{
-        setTypingCompleted(false)
-    },[props.dark])
+    // React.useEffect(()=>{
+    //     setTypingCompleted(false)
+    // },[props.dark])
 
     return(
         <div className={props.dark ? 'main-dark-intro' : 'main-light-intro'}>
             <div className={props.dark ? 'sub-dark-intro' : 'sub-light-intro'}>
                 <div style={{ display: 'flex', alignItems: 'flex-start' }}>
-                    <h1> Hello, I am Prashanth Dussa</h1>
+                    <h1 className={props.dark ? 'dark-h1' : 'light-h1'}> Hello, I am Prashanth Dussa</h1>
                     <IntroImage dark={props.dark}/>
                 </div>
                     <p className={props.dark ? 'dark-intro-details' : 'light-intro-details'}>
