@@ -9,7 +9,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.vers
 export default function Navbar(props){
 
     const handleDownloadResume = () => {
-        saveAs(ResumePDF, 'YourResume.pdf');
+        saveAs(ResumePDF, 'Prashanth_Dussa_Resume.pdf');
       };
 
     return(
