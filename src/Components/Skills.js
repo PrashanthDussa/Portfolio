@@ -35,6 +35,10 @@ export default function Skills(props){
                         <img src='/Images/c++.svg' alt="c++"></img>
                         <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>C++</p>
                     </div>
+                    <div className="logo">
+                        <img src='/Images/tailwind.svg' alt="tailwind"></img>
+                        <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>Tailwind CSS</p>
+                    </div>
                 </div>
                 <div className="skills-logos">
                     <div className="logo">
@@ -60,6 +64,10 @@ export default function Skills(props){
                     <div className="logo">
                         <img src='/Images/git.svg' alt="git"></img>
                         <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>Git</p>
+                    </div>
+                    <div className="logo">
+                        <img src='/Images/nextjs.svg' alt="nextjs"></img>
+                        <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>Next.js</p>
                     </div>
                 </div>
             </div>
