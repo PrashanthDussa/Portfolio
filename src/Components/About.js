@@ -17,7 +17,7 @@ export default function About(props){
                         </div>
                         <div className="text-container-paragraph">
                             <p className={props.dark ? "dark-text-container-text" : "light-text-container-text"}>
-                                I am pursuing my Masters in Computer Science at Arizona State University, expected to graduate in May 2024. I hold a Bachelors Degree in Computer Science from DR BR Ambedkar National Institute of Technology Jalandhar, graduated in June 2021.
+                                I have graduated with a Masters Degree in Computer Science at Arizona State University in May 2024. I hold a Bachelors Degree in Computer Science from DR BR Ambedkar National Institute of Technology Jalandhar, graduated in June 2021.
                                 <br></br>
                                 <br></br>
                                 My programming proficiency spans C, C++, Java, and Python. In web development, I am adept at HTML, CSS, JavaScript, jQuery, and ReactJS. I have hands-on experience with tools like SQL, Node.js, MongoDB, Spring Boot, Android Studio, and version control using Git/GitHub. My familiarity extends across Windows, macOS, and Linux/Unix.
