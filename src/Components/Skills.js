@@ -29,11 +29,11 @@ export default function Skills(props){
                     </div>
                     <div className="logo">
                         <img src='/Images/c.svg' alt="c"></img>
-                        <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>C</p>
+                        <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>C/C++</p>
                     </div>
                     <div className="logo">
-                        <img src='/Images/c++.svg' alt="c++"></img>
-                        <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>C++</p>
+                        <img src='/Images/django.svg' alt="django"></img>
+                        <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>Django</p>
                     </div>
                     <div className="logo">
                         <img src='/Images/tailwind.svg' alt="tailwind"></img>
