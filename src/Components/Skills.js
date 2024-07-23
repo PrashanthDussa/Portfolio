@@ -40,8 +40,8 @@ export default function Skills(props){
                         <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>Tailwind CSS</p>
                     </div>
                     <div className="logo">
-                        <img src='/Images/jquery.svg' alt="jquery"></img>
-                        <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>jQuery</p>
+                        <img src='/Images/typescript.svg' alt="jquery"></img>
+                        <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>TypeScript</p>
                     </div>
                 </div>
                 <div className="skills-logos">
