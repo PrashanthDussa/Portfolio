@@ -11,7 +11,7 @@ export default function StatusContainer(props){
              <div className='status-container'>
                         <div className='location-container'>
                             <img width="30" height="30" src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/external-location-contact-us-flatart-icons-flat-flatarticons.png" alt="external-location-contact-us-flatart-icons-flat-flatarticons"/>
-                            <p className={props.dark ? 'dark-location' : 'light-location'}>Tempe, United States</p>
+                            <p className={props.dark ? 'dark-location' : 'light-location'}>Frisco, United States</p>
                         </div>
                         <div className={props.dark ? 'dark-status' : 'light-status'}>
                             <div className='status-color'></div>
