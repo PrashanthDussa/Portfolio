@@ -8,7 +8,7 @@ export default function Experience(props){
             </div>
             <div className='experience-content-container'>
                 <div className='experience-header'>
-                    <p className={ props.dark ? 'dark-experience-header' : 'light-experience-header'}>Here is a quick summary of my most recent experience :</p>
+                    <p className={ props.dark ? 'dark-experience-header' : 'light-experience-header'}>Here is a quick summary of my most Full-time experience :</p>
                 </div>
                 <div className={props.dark ? 'dark-experience-text-parent' : 'light-experience-text-parent'}>
                     <div className="experience-text-child">
@@ -21,10 +21,10 @@ export default function Experience(props){
                             </div>
                             <div className="experience-text">
                                 <ul className={props.dark ? 'dark-list-items' : 'light-list-items'}>
-                                    <li>Integrated Asset Control software with SQL and Python/Linux, reducing errors by 50%.</li>
-                                    <li>Optimized client data using SQL commands, achieving a 40% reduction in errors.</li>
-                                    <li>Revamped Asset Control Environment, leveraging Python and Linux commands in JIRA for a 30% decrease in system downtime.</li>
-                                    <li>Served as the main contact for US and UK financial market clients, ensuring satisfaction and prompt issue resolution.</li>
+                                    <li>Integrated REST APIs in React, extending functionality and cutting development time by 30%.</li>
+                                    <li>Optimized performance with Lighthouse/WebPageTest, boosting traffic handling by 50%.</li>
+                                    <li>Engaged in Agile processes, ensuring timely delivery and improving team collaboration.</li>
+                                    <li>Developed UI in React/Next.js, enhancing functionality and scalability with best practices.</li>
                                 </ul>
                             </div>
                         </div>
