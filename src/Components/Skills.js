@@ -28,8 +28,8 @@ export default function Skills(props){
                         <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>MongoDB</p>
                     </div>
                     <div className="logo">
-                        <img src='/Images/c.svg' alt="c"></img>
-                        <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>C/C++</p>
+                        <img src='/Images/angular.svg' alt="angular"></img>
+                        <p className={props.dark ? 'dark-logo-text' : 'light-logo-text'}>Angular</p>
                     </div>
                     <div className="logo">
                         <img src='/Images/django.svg' alt="django"></img>
