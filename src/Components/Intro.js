@@ -24,7 +24,7 @@ export default function Intro(props){
                     <IntroImage dark={props.dark}/>
                 </div>
                     <p className={props.dark ? 'dark-intro-details' : 'light-intro-details'}>
-                        <TypingEffect text={'I am a skilled Computer Science graduate with expertise in programming languages such as C, C++, Java, and Python. My background encompasses Web Development, Database Management. Noteworthy achievements include optimizing Financial Data processing and creating a Mobile app for Image recognition. I excel in streamlining processes, enhancing user experiences, and applying technology for impactful solutions.'} 
+                        <TypingEffect text={'I am a software engineer with 3 years of experience in Full-stack development, specializing in React, Angular, Next.js, SQL, and JavaScript. I have a strong track record of building responsive web applications, optimizing performance, and ensuring seamless data integration across platforms.'} 
                         dark={props.dark} 
                         onComplete={handleTypingComplete}/>
                     </p>

@@ -17,17 +17,13 @@ export default function About(props){
                         </div>
                         <div className="text-container-paragraph">
                             <p className={props.dark ? "dark-text-container-text" : "light-text-container-text"}>
-                                I have graduated with a Masters Degree in Computer Science at Arizona State University in May 2024. I hold a Bachelors Degree in Computer Science from DR BR Ambedkar National Institute of Technology Jalandhar, graduated in June 2021.
+                                I am a software engineer specializing in full-stack development, with experience in React, Angular, Next.js, and Spring Boot. At Vcloud Global, I improved performance for over 1,000 users by developing user-facing features and optimizing data handling, focusing on reusable components and efficient UI/UX design.                                <br></br>
                                 <br></br>
+                                I have worked extensively with SQL and Node.js, integrating APIs and services to streamline development. At eClerx, I enhanced interoperability and reduced development time by 30% through effective REST API integration. I also optimized performance using Lighthouse and WebPageTest.                                <br></br>
                                 <br></br>
-                                My programming proficiency spans C, C++, Java, and Python. In web development, I am adept at HTML, CSS, JavaScript, jQuery, and ReactJS. I have hands-on experience with tools like SQL, Node.js, MongoDB, Spring Boot, Android Studio, and version control using Git/GitHub. My familiarity extends across Windows, macOS, and Linux/Unix.
+                                At Fresh Prints, I improved user experience by 30% with responsive Angular interfaces and secure JWT authentication. I focused on enhancing functionality while maintaining security and ease of use.                                <br></br>
                                 <br></br>
-                                <br></br>
-                                As a Senior Analyst at eClerx Services Limited in Pune, India, I integrated Asset Control software with SQL and Python/Linux, reducing errors by 50%. I optimized client data with SQL commands, achieving a 40% error reduction. My role included revamping the Asset Control Environment, leading to a 30% decrease in system downtime.
-                                <br></br>
-                                <br></br>
-                                In Image Recognition project at ASU, I streamlined data collection by 50% with a mobile app. The Face Mask Detection System, using Keras and TensorFlow, reduced manual monitoring by 80%. In Home Rentals, I cut server processing time by 30% with a website using HTML, CSS, JavaScript, jQuery, Node.js, and MongoDB.
-                                <br></br>
+                                I hold a Master’s in Computer Science from Arizona State University (GPA: 3.87) and a Bachelor’s from DR BR Ambedkar NIT. My skills include Java, Python, C/C++, and tools like Git, MongoDB, and Android Studio across Windows, macOS, and Linux/Unix.                                <br></br>
                                 <br></br>
                             </p>
                         </div>
