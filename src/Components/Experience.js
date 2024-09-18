@@ -8,7 +8,7 @@ export default function Experience(props){
             </div>
             <div className='experience-content-container'>
                 <div className='experience-header'>
-                    <p className={ props.dark ? 'dark-experience-header' : 'light-experience-header'}>Here is a quick summary of my most Full-time experience :</p>
+                    <p className={ props.dark ? 'dark-experience-header' : 'light-experience-header'}>Here is a quick summary of my most recent Full-time experience :</p>
                 </div>
                 <div className={props.dark ? 'dark-experience-text-parent' : 'light-experience-text-parent'}>
                     <div className="experience-text-child">
