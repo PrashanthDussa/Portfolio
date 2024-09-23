@@ -8,7 +8,7 @@ export default function Experience(props){
             </div>
             <div className='experience-content-container'>
                 <div className='experience-header'>
-                    <p className={ props.dark ? 'dark-experience-header' : 'light-experience-header'}>Here is a quick summary of my most recent Full-time experience :</p>
+                    <p className={ props.dark ? 'dark-experience-header' : 'light-experience-header'}>Here is a quick summary of my recent experience :</p>
                 </div>
                 <div className={props.dark ? 'dark-experience-text-parent' : 'light-experience-text-parent'}>
                     <div className="experience-text-child">
@@ -17,14 +17,14 @@ export default function Experience(props){
                         </div>
                         <div className="experience-text-container">
                             <div className="experience-text-header">
-                                <p className={props.dark ? 'dark-experience-text-header' : 'light-experience-text-header'}>Senior Analyst</p>
+                                <p className={props.dark ? 'dark-experience-text-header' : 'light-experience-text-header'}>Full Stack Developer</p>
                             </div>
                             <div className="experience-text">
                                 <ul className={props.dark ? 'dark-list-items' : 'light-list-items'}>
-                                    <li>Integrated REST APIs in React, extending functionality and cutting development time by 30%.</li>
-                                    <li>Optimized performance with Lighthouse/WebPageTest, boosting traffic handling by 50%.</li>
-                                    <li>Engaged in Agile processes, ensuring timely delivery and improving team collaboration.</li>
-                                    <li>Developed UI in React/Next.js, enhancing functionality and scalability with best practices.</li>
+                                    <li>Developed user-facing features in React, improving performance for 1,000+ users.</li>
+                                    <li>Designed reusable UI components and backend logic in Node.js and SQL, reducing data issues by 30%.</li>
+                                    <li>Resolved 90% of issues via debugging and troubleshooting with Chrome DevTools.</li>
+                                    <li>Collaborated with backend teams to integrate APIs, cutting integration time by 40%.</li>
                                 </ul>
                             </div>
                         </div>
