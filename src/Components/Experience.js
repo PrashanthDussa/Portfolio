@@ -13,7 +13,7 @@ export default function Experience(props){
                 <div className={props.dark ? 'dark-experience-text-parent' : 'light-experience-text-parent'}>
                     <div className="experience-text-child">
                         <div className="experience-logo-container">
-                            <img src="/Images/eclerx.svg" alt="eclerx"></img>
+                            <img src="/Images/vcloud.png" alt="eclerx"></img>
                         </div>
                         <div className="experience-text-container">
                             <div className="experience-text-header">
