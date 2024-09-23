@@ -29,7 +29,7 @@ export default function Experience(props){
                             </div>
                         </div>
                         <div className="experience-date">
-                            <p className={props.dark ? 'dark-experience-date' : 'light-experience-date'}>June 2021 - June 2022</p>
+                            <p className={props.dark ? 'dark-experience-date' : 'light-experience-date'}>June 2023 - May 2024</p>
                         </div>
                     </div>
                 </div>
