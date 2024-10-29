@@ -21,15 +21,15 @@ export default function Experience(props){
                             </div>
                             <div className="experience-text">
                                 <ul className={props.dark ? 'dark-list-items' : 'light-list-items'}>
-                                    <li>Developed user-facing features in React, improving performance for 1,000+ users.</li>
-                                    <li>Designed reusable UI components and backend logic in Node.js and SQL, reducing data issues by 30%.</li>
-                                    <li>Resolved 90% of issues via debugging and troubleshooting with Chrome DevTools.</li>
-                                    <li>Collaborated with backend teams to integrate APIs, cutting integration time by 40%.</li>
+                                    <li>Developed and maintained high-performance Java and React applications, ensuring reliability and scalability.</li>
+                                    <li>Designed RESTful APIs using Spring Boot and SQL, optimizing data exchange and reducing response times by 20%.</li>
+                                    <li>Integrated AWS services (EC2, S3, Lambda) to enable cloud-hosted solutions, enhancing scalability and reducing costs by 25%.</li>
+                                    <li>Streamlined CI/CD processes with Jenkins, automating 80% of deployment tasks and minimizing manual intervention.</li>
                                 </ul>
                             </div>
                         </div>
                         <div className="experience-date">
-                            <p className={props.dark ? 'dark-experience-date' : 'light-experience-date'}>June 2023 - May 2024</p>
+                            <p className={props.dark ? 'dark-experience-date' : 'light-experience-date'}>January 2024 - Present</p>
                         </div>
                     </div>
                 </div>
@@ -45,10 +45,10 @@ export default function Experience(props){
                             </div>
                             <div className="experience-text">
                                 <ul className={props.dark ? 'dark-list-items' : 'light-list-items'}>
-                                    <li>Developed UI components using React/Next.js, enhancing responsiveness and supporting complex requirements.</li>
-                                    <li>Integrated REST APIs in React, extending functionality and cutting development time by 30%.</li>
-                                    <li>Optimized performance with Lighthouse/WebPageTest, boosting traffic handling by 50%.</li>
-                                    <li>Engaged in Agile processes, ensuring timely delivery and improving team collaboration.</li>
+                                    <li>Developed backend services using Java and Spring, improving processing speeds by 30% and meeting complex client requirements.</li>
+                                    <li>Built a responsive React dashboard for agents with real-time search and filtering, reducing ticket handling time by 20%.</li>
+                                    <li>Conducted performance tuning and load testing with JMeter, addressing bottlenecks and ensuring stability under high traffic volumes.</li>
+                                    <li>Actively participated in Agile processes, including sprint planning and retrospectives, ensuring timely delivery and effective teamwork.</li>
                                 </ul>
                             </div>
                         </div>
